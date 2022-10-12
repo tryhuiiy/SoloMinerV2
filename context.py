@@ -1,7 +1,7 @@
 fShutdown = False
-listfThreadRunning = [False] * 2
+listfThreadRunning = [False] * 512
 local_height = 0
-nHeightDiff = {}
+nHeightDiff = {32}
 updatedPrevHash = None
 job_id = None
 prevhash = None
